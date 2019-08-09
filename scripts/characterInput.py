@@ -2,12 +2,11 @@
 
 import datetime
 
+
 def calculateYearWhenClientPass100Years(name, age, multiplicationIndex):
     now = datetime.datetime.now().year
     year = now + 100 - int(age)
     print(int(multiplicationIndex) * (name + " will be 100 years old in " + str(year) + "\n"))
-
-
 
 
 name = input("Tell me your name: ")
